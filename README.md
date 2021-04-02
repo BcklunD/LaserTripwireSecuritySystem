@@ -26,6 +26,8 @@ is unprecedented on the market today, atleast at thisprice level. Most other sys
 
 ## Planning
 
+![Gantt diagram of our planning](https://github.com/BcklunD/LaserTripwireSecuritySystem/tree/main/Images/planning.png "Gantt diagram of our planning")
+
 **Week** 4 5 6 7 8 9 10 11 12
 
 Submit planning report
