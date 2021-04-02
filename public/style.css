@@ -1,0 +1,51 @@
+html,
+body {
+  margin-top: 20px;
+  background-color: rgb(36, 36, 36);
+  color: gold;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+#password {
+  width: 200px;
+  height: 40px;
+  font-size: larger;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+input[type=submit] {
+  width: 200px;
+  height: 40px;
+  font-size: larger;
+  border-radius: 15px;
+  background-color: rgb(44, 44, 44);
+  color: gold;
+}
+
+#submit:hover { background-color: rgb(68, 68, 68); }
+
+#error { 
+  color: red;
+  font-size: large;
+  margin-top: 20px;
+}
+
+#videos { 
+  width: 1200px; 
+  margin: auto;
+}
+
+#videoCont {
+  padding: 20px;
+  display: inline-block;
+}
+
+#newVid {
+  background-color: yellow;
+  color: red;
+  border-radius: 10px;
+  display: inline;
+  padding: 3.5px;
+}

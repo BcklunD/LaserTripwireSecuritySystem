@@ -1,0 +1,28 @@
+{
+  "name": "laser-tripwire-with-cctv-camera",
+  "version": "1.0.0",
+  "description": "Laser tripwire triggered CCTV camera project for the course 2DT301",
+  "main": "app.js",
+  "scripts": {
+    "lint": "npx eslint . || exit 0",
+    "lint:fix": "npx eslint . --fix || exit 0",
+    "start": "SET NODE_ENV=production & node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:sb223rd/laser-tripwire-with-cctv-camera.git"
+  },
+  "author": "Simon Bäcklund & Albin Ljungdahl",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "ws": "^7.4.2"
+  },
+  "eslintConfig": {
+    "extends": "@lnu"
+  }
+}
