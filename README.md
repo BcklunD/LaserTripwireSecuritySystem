@@ -28,40 +28,6 @@ is unprecedented on the market today, atleast at thisprice level. Most other sys
 
 ![Gantt diagram of our planning](https://github.com/BcklunD/LaserTripwireSecuritySystem/blob/main/Images/planning.PNG "Gantt diagram of our planning")
 
-**Week** 4 5 6 7 8 9 10 11 12
-
-Submit planning report
-
-Set up Raspberry Pi
-
-Set up light sensor
-
-Set up camera
-
-Activate camera on sensor
-
-**Mid-term evaluation**
-
-Log activities
-
-Build website
-
-Send data to website
-
-**If time permits**
-
-Implement authorization
-
-Implement notifications
-
-Build mobile application
-
-Connect mobile app to website
-
-Implement live-feed from camera
-
-**Deadline**
-
 ```
 Above is the project plan that was drawn out in weekfour when the project was still in the planning stage. The work was divided as such that Albin was more responsible for the hardware part of the project and Simon had more responsibilityfor the software. This was a natural division of the work since the Raspberry PIand all its components were at Albin’s residence and most of the work was handled remotely.All the work was still done in
 cooperation, but the division made it easier to delegatework and know who had responsibility for what.
@@ -99,10 +65,14 @@ After setting up the hardware and integrating thecamera with the light sensor it
 
 The client side of the website was created with the help of HTML, CSS and JavaScript, and it is made as a SPA (Single Page Application). This means that the client will only request the first HTML page from the client and then never have to request a new HTML page from the server, but will instead just request resources and alter the look of the page through the JavaScript code that was provided with the first request. When you first enter the page you will be greeted by an input field for entering the password of the website together with 2 buttons: one for requesting the video archive and the other for requesting the livestream.
 
+![Image of the homepage](https://github.com/BcklunD/LaserTripwireSecuritySystem/blob/main/Images/homepage.PNG "Image of the homepage")
+
 ```
 Figure 1. The start page of the website where you enter password and choose service
 ```
 Once you have entered the correct password and clickedone of the buttons and the communication between the server and client as previously described has happened, the page will dynamically change to display what you previouslyrequested. The text box for logging in will disappear together with the buttons and the page will look like one of the images below where the left image represents the livestream and the right image represents the video archive.
+
+![Image of the streaming and video archive part](https://github.com/BcklunD/LaserTripwireSecuritySystem/blob/main/Images/streamandvideo.PNG "Image of the streaming and video archive part")
 
 ```
 Figure 2. Left: The livestream. Right: Video archive.
